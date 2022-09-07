@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    background-color: #ff4c68;
+    padding: 1% 15%;     /*3% from top & bottom     5% from left&right */
+    /* position:absolute */
+}
+
+.container-fluid{
+    /* padding: 3% 15%; */
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: -5%;
+}
+
+.row .col-lg-6 h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#dogImgID{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 29%;
+    /* position:absolute; */
+    /* z-index: -1; */
+}
+
+.navbar{
+    font-family: Ubuntu; 
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+li{
+    padding-right: 8%;
+}
+
+.btn{
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+#features{
+    /* position: absolute;
+    z-index: 1; */
+    /* position: absolute; */
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #535252;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iconClass{
+    color: #ef8172; 
+    padding: 5% 0;
+}
+.iconClass:hover{
+    color: #ff4c68; 
+}
+
+#testimonials-carousel{
+    padding: 5% 15%;
+    background-color: #ef8172; 
+    color: white;
+    text-align: center;
+    /* position: absolute; */
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    /* line-height: 1.5; */
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press{
+    padding: 2% 15%;
+    background-color: #ef8172; 
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.pressLogo{
+    width: 15%;
+    margin: 10px 20px 50px;
+}
+
+.btnWidthClass{
+    width: 100%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68; 
+    padding: 5% 15%;
+}
+.down{
+    padding: 1% 25%;
+
+}
+
+#cta h3{
+    padding-top: 2%;
+    font-size:xx-large;
+    color: #fff;
+}
+/* .apple{
+    margin-left: 45%;
+}
+.gplay{
+    margin-right: 45%;
+} */
+
+#footer{
+    text-align: center;
+}
+.last{
+    padding: 1% 15%;
+}
+.last p{
+    padding-top: 1%;
+}
+.socialMediaIcon{
+    padding: 1%;
+    cursor: pointer;
+
+}
